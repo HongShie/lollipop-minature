@@ -403,12 +403,15 @@
   #nav_right{
     display: none;
   }
+  #nav_left{
+    width: 30%;
+  }
   #nav_right_mobile{
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
     padding-top: 2rem;
-    width: 50%;
+    width: 70%;
     height: 100%;
     padding-right: 3rem;
   }
