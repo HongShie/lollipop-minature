@@ -407,10 +407,10 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     width: 50%;
     height: 100%;
-    padding-right: 2.5rem;
+    padding-right: 3rem;
   }
   #content_left{
     font-size: 60px;
