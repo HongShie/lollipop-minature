@@ -413,7 +413,51 @@
     padding-right: 2.5rem;
   }
   #content_left{
-    font-size: 80px;
+    font-size: 60px;
+    padding-left: 3rem;
+  }
+  #catalog_popup{
+    padding-left: 3rem;
+  }
+  #catalog_action{
+    padding-left: 3rem;
+  }
+  #catalog_showcase{
+    padding-left: 3rem;
+  }
+  #catalog_showcase>div{
+    width: 80%;
+    font-size: 40px;
+  }
+  #about_action{
+    padding-left: 3rem;
+  }
+  #about_content{
+    padding-left: 3rem;
+  }
+  #about_left{
+    padding: 0%;
+  }
+  #about_right{
+    padding: 0%;
+  }
+  #about_right_top{
+    font-size: 30px;
+  }
+  #about_right_bottom{
+    width: 90%;
+    font-size: 12.5px;
+  }
+  #foot_logo_mobile{
+    height: 60%;
+  }
+  #foot_left{
+    height: 20%;
+    font-size: 15px;
+  }
+  #foot_right{
+    height: 20%;
+    font-size: 15px;
   }
 }
 /*****mobile*****/
