@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.my_font{
+  font-family: 'Outfit', sans-serif;
+}
+
+#feature{
+  height: 92vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/mini-5.jpg);
+}
+
+/*****navigation bar*****/
+#navigation{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 12.5%;
+  width: 100%;
+}
+#nav_left{
+  width: 50%;
+  height: 100%;
+  padding-top: 0.75rem;
+  padding-left: 1.5rem;
+}
+#nav_right{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  padding-top: 0.75rem;
+  width: 50%;
+  height: 100%;
+  padding-right: 1.5rem;
+}
+#nav_right_mobile{
+  display: none;
+}
+#nav_right>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 15px;
+  color: aliceblue;
+  font-size: 25px;
+}
+/*****navigation bar*****/
+
+/*****content*****/
+#content{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 87.5%;
+  width: 100%;
+}
+#content_left{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 70%;
+  height: 100%;
+  padding-left: 7rem;
+  padding-bottom: 3rem;
+  font-size: 100px;
+  font-weight: 700;
+  color: aliceblue;
+}
+#content_right{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: end;
+  width: 30%;
+  height: 100%;
+  padding-right: 4rem;
+  padding-bottom: 5.5rem;
+  font-size: 25px;
+  color: aliceblue;
+}
+/*****content*****/
+
+#catalog{
+  height: 108vh;
+  background-position: center;
+  background-size: cover;
+  background-color: #EADBC8;
+}
+
+/*****popup*****/
+#catalog_popup{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 95%;
+  height: 8vh;
+  padding-left: 5rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-bottom: solid 1px black;
+}
+#catalog_popup>a{
+  text-decoration: none;
+  color: black;
+}
+/*****popup*****/
+
+#catalog_action{
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  padding-left: 7.25rem;
+  padding-top: 2rem;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/*****row*****/
+#catalog_showcase{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 85vh;
+  padding-left: 2.5%;
+  padding-left: 5rem;
+  font-size: 50px;
+  border-bottom: solid 1px black;
+}
+
+#Festive_background{
+  display: inline-block;
+  width: 30%;
+  height: 80%;
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Christmas-Resin-Figurine-Mini-Holiday-Durable-Decorations-Xmas-Resin-Prop-Adorable-Creative-Sculpture-Statues-for-Office.jpg);
+  margin-right: 2.5%;
+}
+
+#Festive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+  text-shadow: 2px 2px #999999;
+}
+
+#Food_background{
+  display: inline-block;
+  width: 30%;
+  height: 80%;
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/mini-1.jpg);
+  margin-right: 2.5%;
+}
+
+#Food{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+  text-shadow: 2px 2px #999999;
+}
+
+#Animal_background{
+  display: inline-block;
+  width: 30%;
+  height: 80%;
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/my-mini-cockatiel-v0-f1ydto0tm24b1.webp);
+  margin-right: 2.5%;
+}
+
+#Animal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+  text-shadow: 2px 2px #999999;
+}
+
+#Coming_Soon_background{
+  display: inline-block;
+  width: 30%;
+  height: 80%;
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-color: #999999;
+  margin-right: 2.5%;
+}
+
+#Coming_Soon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+  text-shadow: 2px 2px #999999;
+}
+/*****row*****/
+
+#about{
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+  background-color: #EADBC8;
+}
+
+#about_action{
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  padding-left: 7.25rem;
+  padding-top: 2rem;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#about_content{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 65vh;
+  padding-left: 2.5%;
+  padding-left: 5rem;
+}
+
+#about_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 40%;
+  height: 100%;
+}
+
+#about_left>img{
+  width: 80%;
+  border-radius: 90px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#about_right{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+}
+
+#about_right_top{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#about_right_bottom{
+  width: 50%;
+  height: 50%;
+}
+
+#footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 15vh;
+  background-color: #0F2C59;
+}
+
+#foot_logo_mobile{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+}
+
+#foot_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  text-decoration: none;
+  color: aliceblue; 
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#foot_left>a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#foot_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+}
+
+#foot_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  text-decoration: none;
+  color: aliceblue; 
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#foot_right>a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+
+/*****mobile*****/
+@media screen and (max-width: 1000px) {
+  #content_left{
+    width: 100%;
+    padding-left: 4rem;
+  }
+  #content_right{
+    display: none;
+  }
+  #catalog_showcase>div{
+    width: 60%;
+    font-size: 80px;
+  }
+  #about_content{
+    flex-wrap: wrap;
+  }
+  #about_left{
+    justify-content: start;
+    width: 100%;
+    height: 50%;
+  }
+  #about_left>img{
+    width: auto;
+    height: 100%;
+  }
+  #about_right{
+    padding-left: 2.25rem;
+    width: 100%;
+    height: 50%;
+  }
+  #about_right_bottom{
+    width: 70%;
+    font-size: 18px;
+  }
+  #footer{
+    height: 20vh;
+  }
+  #foot_logo_mobile{
+    width: 100%;
+    display: flex;
+    height: 50%;
+  }
+  #foot_left{
+    width: 100%;
+    height: 25%;
+  }
+  #foot_logo{
+    display: none;
+  }
+  #foot_right{
+    width: 100%;
+    height: 25%;
+  }
+}
+@media screen and (max-width: 750px) {
+  #nav_right{
+    display: none;
+    width: 70%;
+  }
+  #nav_left{
+    width: 30%;
+  }
+  #nav_right_mobile{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+    padding-right: 1.5rem;
+    position: absolute;
+  }
+  #content_left{
+    font-size: 60px;
+    padding-left: 3rem;
+  }
+  #catalog_popup{
+    padding-left: 3rem;
+  }
+  #catalog_action{
+    padding-left: 3rem;
+  }
+  #catalog_showcase{
+    padding-left: 3rem;
+  }
+  #catalog_showcase>div{
+    width: 80%;
+    font-size: 40px;
+  }
+  #about_action{
+    padding-left: 3rem;
+  }
+  #about_content{
+    padding-left: 3rem;
+  }
+  #about_left{
+    padding: 0%;
+  }
+  #about_right{
+    padding: 0%;
+  }
+  #about_right_top{
+    font-size: 30px;
+  }
+  #about_right_bottom{
+    width: 90%;
+    font-size: 12.5px;
+  }
+  #foot_logo_mobile{
+    height: 60%;
+  }
+  #foot_left{
+    height: 20%;
+    font-size: 15px;
+  }
+  #foot_right{
+    height: 20%;
+    font-size: 15px;
+  }
+}
+/*****mobile*****/
