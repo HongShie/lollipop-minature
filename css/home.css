@@ -412,5 +412,8 @@
     height: 100%;
     padding-right: 2.5rem;
   }
+  #content_left{
+    font-size: 80px;
+  }
 }
 /*****mobile*****/
