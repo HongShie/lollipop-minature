@@ -454,14 +454,20 @@
     font-size: 12.5px;
   }
   #foot_logo_mobile{
-    height: 60%;
+    height: 50%;
   }
   #foot_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 20%;
     font-size: 15px;
   }
   #foot_right{
-    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 30%;
     font-size: 15px;
   }
 }
